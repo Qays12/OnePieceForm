@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Piece Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <style>
+      form {
+        width: 50%;
+        padding: 2rem;
+      }
+
+      textarea {
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action="myFormLinkWouldGoHereButIremovedITforThisGithub"
+      method="POST"
+    >
+      <label for="name">What is your name?</label>
+      <input type="text" placeholder="Name" name="name" id="name" />
+      <div>
+        <label for="true">Can Buggy Detach His Body?</label>
+        <input type="radio" name="buggy" id="true" value="true" />
+        <label for="true" class="label-inline">True</label>
+      </div>
+      <div>
+        <input type="radio" name="buggy" id="false" value="false" />
+        <label for="false" class="label-inline">False</label>
+      </div>
+      <div>
+        <label for="zoro">Who has the biggest CHEST OF THEM ALL!!!!!</label>
+        <input type="radio" name="chest" id="zoro" value="Zoro" />
+        <label for="zoro" class="label-inline">Zoro</label>
+      </div>
+      <div>
+        <input type="radio" name="chest" id="han" value="Hancock" />
+        <label for="han" class="label-inline">Hancock</label>
+      </div>
+      <div>
+        <input type="radio" name="chest" id="rob" value="Robin" />
+        <label for="rob" class="label-inline">Robin</label>
+      </div>
+      <div>
+        <input type="radio" name="chest" id="nami" value="Nami" />
+        <label for="nami" class="label-inline">Nami</label>
+      </div>
+      <div>
+        <input type="radio" name="chest" id="kal" value="Kalifa" />
+        <label for="kal" class="label-inline">Kalifa</label>
+      </div>
+      <div>
+        <label for="straw">Who's Your Fav Strawhat?</label>
+        <select id="straw" name="strawhat">
+          <option value=""></option>
+          <option value="" disabled selected>Select your fav Strawhat</option>
+          <option value="Luffy">Luffy</option>
+          <option value="Zoro">Zoro</option>
+          <option value="Nami">Nami</option>
+          <option value="Usopp">Usopp</option>
+          <option value="Sanji">Sanji</option>
+          <option value="Chopper">Chopper</option>
+          <option value="Robin">Robin</option>
+          <option value="Franky">Franky</option>
+          <option value="Brook">Brook</option>
+        </select>
+      </div>
+      <label for="countries">Where Are You From?</label>
+      <input
+        type="text"
+        list="countries"
+        autocomplete="off"
+        placeholder="Select Here or Type if not in list"
+        name="country"
+      />
+      <datalist id="countries">
+        <option data-value="1">Australia</option>
+        <option data-value="2">United Kingdom</option>
+        <option data-value="3">New Zealand</option>
+        <option data-value="5">Japan</option>
+        <option data-value="6">France</option>
+        <option data-value="7">Germany</option>
+        <option data-value="8">United States</option>
+        <option data-value="9">Italy</option>
+        <option data-value="10">Mexico</option>
+        <option data-value="11"></option>
+      </datalist>
+      <div>
+        <label for="anime">Whats Your Fav Anime?</label>
+        <input type="text" id="anime" name="favanime" placeholder="Type here" />
+      </div>
+      <div>
+        <label for="rate">Rate This Form Out Of /10</label>
+        <select id="rate" name="rating">
+          <option value=""></option>
+          <option value="" disabled selected>Select to rate this form</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <button type="submit">Submit the form</button>
+    </form>
+  </body>
+</html>
